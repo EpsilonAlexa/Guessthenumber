@@ -3,7 +3,7 @@ while (!maximum) {
     maximum = parseInt(prompt("Enter a valid number!"));
 }
 
-const targetNum = Math.floor(Math.random() * 100);
+const targetNum = Math.floor(Math.random() * maximum) + 1;
 
 let guess = prompt("Enter your first guess, less than 100!" (Type 'X' to quit)");
 let attempts = 1;
