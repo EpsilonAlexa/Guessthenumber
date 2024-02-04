@@ -1,4 +1,4 @@
-let maximum = parseInt(prompt("Enter a random number, less than 100!")(Type 'X' to quit)");
+let maximum = parseInt(prompt("Enter a random number, less than 100! Type 'X' to quit");
 while (!maximum) {
     maximum = parseInt(prompt("Enter a valid number!"));
 }
