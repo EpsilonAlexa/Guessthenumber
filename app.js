@@ -1,9 +1,9 @@
-let maximum = parseInt(prompt("Enter the maximum number!"));
+let maximum = parseInt(prompt("Enter a random number, less than 100!"));
 while (!maximum) {
     maximum = parseInt(prompt("Enter a valid number!"));
 }
 
-const targetNum = Math.floor(Math.random() * maximum) + 1;
+const targetNum = Math.floor(Math.random() * 100);
 
 let guess = prompt("Enter your first guess! (Type 'X' to quit)");
 let attempts = 1;
